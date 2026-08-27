@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "autoswap",
+	"version": "${version}",
+	"name": "AutoSwap",
+	"description": "Свап предмета в offhand по бинду на выбранный предмет из инвентаря",
+	"authors": [
+		"Author"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/autoswap/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.autoswap.AutoSwapClient"
+		]
+	},
+	"mixins": [
+		"autoswap.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

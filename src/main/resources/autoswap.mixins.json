@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.autoswap.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"HandledScreenAccessor",
+		"HandledScreenMixin",
+		"ScreenInvoker"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"key.autoswap.swap": "AutoSwap: select/swap item",
+	"key.autoswap.elytra": "AutoSwap: chest <-> elytra",
+	"key.autoswap.wind": "AutoSwap: wind charge",
+	"category.autoswap": "AutoSwap"
+}
